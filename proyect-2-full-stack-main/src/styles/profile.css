@@ -1,0 +1,55 @@
+/* src/styles/profile.css */
+
+/* Contenedor general */
+.profile-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Encabezados */
+.profile-container h1, 
+.profile-container h2 {
+  color: #2E8B57;
+  margin-bottom: 20px;
+}
+
+/* Formulario */
+#perfil-form .form-label {
+  font-weight: bold;
+}
+
+#perfil-form input {
+  margin-bottom: 15px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+#perfil-form button {
+  background-color: #2E8B57;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#perfil-form button:hover {
+  background-color: #276749;
+}
+
+/* Historial de compras */
+#historial-compras ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#historial-compras li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #F7F7F7;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}

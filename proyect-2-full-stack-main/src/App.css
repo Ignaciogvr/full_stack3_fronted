@@ -1,0 +1,111 @@
+/* src/App.css */
+
+/* Reset y estilos globales */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Encabezados */
+h1, h2, h3, h4, h5, h6 {
+  color: #198754; /* verde de la marca */
+}
+
+/* Botones personalizados */
+.btn-success {
+  background-color: #198754;
+  border-color: #198754;
+}
+
+.btn-success:hover {
+  background-color: #146c43;
+  border-color: #146c43;
+}
+
+.btn-light.text-success {
+  color: #198754 !important;
+  border-color: #198754 !important;
+}
+
+.btn-light.text-success:hover {
+  background-color: #e6f4ea;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  color: white;
+  text-shadow: 1px 1px 6px rgba(0,0,0,0.7);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+}
+
+/* Cards de productos */
+.card img {
+  transition: transform 0.3s ease;
+}
+
+.card img:hover {
+  transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+  background-color: #198754;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+/* Formularios */
+form input,
+form select,
+form textarea {
+  margin-bottom: 1rem;
+}
+
+/* Tables (Cart y Estadísticas) */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+table th,
+table td {
+  padding: 0.75rem;
+  border: 1px solid #dee2e6;
+  text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .card {
+    margin-bottom: 1rem;
+  }
+}

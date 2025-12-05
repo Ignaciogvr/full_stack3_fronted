@@ -1,0 +1,52 @@
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  flex-grow: 1;
+}
+.card-body .card-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.card-body .card-text {
+  flex-grow: 1;
+}
+.card-body .fw-bold {
+  margin-top: 10px;
+  font-size: 1.1em;
+}
+.card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transform: translateY(-3px);
+  transition: all 0.3s ease;
+}
+
+/* Botones generales */
+button {
+  cursor: pointer;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+button.btn-success { background-color: #2E8B57; color: white; }
+button.btn-success:hover { background-color: #276a45; }
+button.btn-warning { background-color: #FFD700; color: #333; }
+button.btn-danger { background-color: #8B4513; color: white; }
